@@ -4,7 +4,7 @@
         green: #90C600
         orange: #FFBA00
         yellow: #F1E209
-        gray: #696969
+        gray: #919191
 
 
 */
@@ -13,9 +13,11 @@
 /* global css here*/
                
 body {
-    background: url("../img/body-bg.gif") repeat scroll 50% 0 transparent;
-    color: #696969;
+/*    background: url("../img/body-bg.gif") repeat scroll 50% 0 transparent;*/
+    background-color: #EDEDE0;
+    color: #919191;
     font-family: "Tahoma", Arial,Helvetica,sans-serif;
+    letter-spacing: 1px;
     background-attachment: fixed;    
 }
 
@@ -30,7 +32,7 @@ img {
     background-color: white;
 }
 .border-gray {
-    border: 1px solid #696969;
+    border: 1px solid #919191;
 }
 
 .padding-10px {
@@ -71,14 +73,18 @@ img {
 .voz-nav {
     height: 50px;
 }
-
-.voz-nav .container ul li {
-    margin-top: 5px;
-}
+                           
 
 .voz-nav .container ul li a{
     color: white;
     font-size: 16px;
+    height:29px;
+    padding-top: 13px;
+    padding-bottom: 4px;
+}
+
+.voz-nav .container ul li a:hover {
+    background-color: #FFBA00;
 }
 
 .main-title {
@@ -139,6 +145,18 @@ img {
 
 .voz-post-1 img {
     height: 175px;
+    margin-bottom: 10px;
+}
+
+.voz-post-2 {
+    height: 450px;
+    border: 1px solid #919191;
+    padding: 15px;
+}
+
+.voz-post-2 img {
+    height: 250px;
+    margin-bottom: 10px;
 }
 
 /*end of content css */
