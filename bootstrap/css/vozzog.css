@@ -1,0 +1,163 @@
+/* vozzog.css
+
+    colors:
+        green: #90C600
+        orange: #FFBA00
+        yellow: #F1E209
+        gray: #696969
+
+
+*/
+
+
+/* global css here*/
+               
+body {
+    background: url("../img/body-bg.gif") repeat scroll 50% 0 transparent;
+    color: #696969;
+    font-family: "Tahoma", Arial,Helvetica,sans-serif;
+    background-attachment: fixed;    
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.main-page{
+    width: 75%;
+    margin: 30px auto;
+    background-color: white;
+}
+.border-gray {
+    border: 1px solid #696969;
+}
+
+.padding-10px {
+    padding: 10px;
+}
+
+.bg-green {
+    background-color: #90C600;
+    color: white;
+}
+
+.bg-orange {
+    background-color: #FFBA00;
+}
+
+.orange {
+    color: #FFBA00;
+}
+
+.yellow {
+    color: yellow;
+    text-decoration: none;
+}
+
+.yellow:hover {
+    color:  #FFBA00;
+}
+
+.global-width {
+    width: 95%;
+}
+
+/*end of global css*/
+
+/*-----------------------------------------------*/
+
+/*header css here*/
+.voz-nav {
+    height: 50px;
+}
+
+.voz-nav .container ul li {
+    margin-top: 5px;
+}
+
+.voz-nav .container ul li a{
+    color: white;
+    font-size: 16px;
+}
+
+.main-title {
+    height: 150px;
+}
+
+.main-search input[type="text"]{
+    margin-top: 5px;
+    width: 98%;
+}
+
+.main-search input[type="button"] {
+    margin-top: -5px;
+    height: 30px;
+}
+/*end of header css*/
+
+/*------------------------------------------------*/
+
+/*content css here */
+
+    /*for home page only*/
+.voz-slider {
+    margin-top: 5px;
+    height: 450px;
+}
+
+.voz-promo {
+    height: 250px;
+}
+
+.voz-promo .row-fluid div {
+    margin:0;
+    width: 33.33%;
+    height: 248px;
+}
+    /*end of home page*/
+
+
+
+.voz-title {
+    height: 35px;
+    background-color: #90C600;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.voz-title p {
+    margin-left: 15px;
+    padding-top: 6px;
+    color: white;
+    font-size: 22px;
+}
+
+.voz-post-1 {
+    height: 350px; 
+}
+
+.voz-post-1 img {
+    height: 175px;
+}
+
+/*end of content css */
+
+/*-----------------------------------------------*/
+
+/*footer*/
+hr.dash {
+    border:none;
+    border-bottom: 1px dashed white;
+}
+
+.footer-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-info {
+    height: 45px;
+}
+/*end of footer */
